@@ -1,15 +1,13 @@
 
 package org.example;
 
-import org.example.calculadora.CalculadoraPrincipal;
-import org.example.juego_fizz_buzz.FizzBuzz;
-import org.example.security.SistemSecurity;
+import org.example.sistema_reserva.views.MenuPrincipalViews;
 
 public class Main {
 	public static void main(String[] args){
 
-
-
+		MenuPrincipalViews reservas = new MenuPrincipalViews();
+		reservas.menuMain();
 		/*
 		Ejercicio de Control de Reservas:
 
@@ -23,7 +21,8 @@ public class Main {
 		calculadora.tomarEleccion();
 ---------------------------------------------------
 		Ejercicio de Temperatura:
-
+		MonitoreoTemperatura monitor = new MonitoreoTemperatura();
+		monitor.tomarTempe();
 ---------------------------------------------------
 		Ejercicio de Sensor de Intrusos:
 		SistemSecurity simulador = new SistemSecurity();

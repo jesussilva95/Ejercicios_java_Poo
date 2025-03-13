@@ -13,7 +13,7 @@ import java.util.Scanner;
 
 public class MonitoreoTemperatura {
 
-	public static void main(String[] args) {
+	public void tomarTempe() {
 		ArrayList<Double> temperaturas = new ArrayList<>();
 		Scanner scanner = new Scanner(System.in);
 		boolean continuar = true;

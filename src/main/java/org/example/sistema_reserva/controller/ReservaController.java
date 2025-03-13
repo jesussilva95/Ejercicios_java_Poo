@@ -1,11 +1,11 @@
-package org.example.sistema_reserva;
+package org.example.sistema_reserva.controller;
 
 import java.util.Scanner;
 
-public class Reserva {
+public class ReservaController {
 
 	private Scanner scam;
-	public Reserva(Scanner scam) {
+	public ReservaController(Scanner scam) {
 		this.scam = scam;
 	}
 	public boolean solicitarreserva(){

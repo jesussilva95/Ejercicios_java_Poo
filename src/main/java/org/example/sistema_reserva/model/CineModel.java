@@ -1,8 +1,8 @@
-package org.example.sistema_reserva;
+package org.example.sistema_reserva.model;
 
 import java.util.ArrayList;
 
-public class Cine {
+public class CineModel {
 	private int capacidad;
 	private ArrayList<Integer> listaCine;
 
