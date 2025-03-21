@@ -1,16 +1,19 @@
 
 package org.example;
 
-import org.example.sistema_reserva.views.MenuPrincipalViews;
+
+import org.example.domotica.Control;
+import org.example.reservas.Cine;
+import org.example.reservas.Sala;
 
 public class Main {
 	public static void main(String[] args){
 
-		MenuPrincipalViews reservas = new MenuPrincipalViews();
-		reservas.menuMain();
+
 		/*
 		Ejercicio de Control de Reservas:
-
+		Cine cine = new Cine();
+		cine.gestionarReservas();
 ---------------------------------------------------
 		Ejercicio de FizzBuzz
 		FizzBuzz juego = new FizzBuzz();
@@ -29,7 +32,8 @@ public class Main {
 		simulador.iniciarSistema();
 ---------------------------------------------------
 		Ejercicio de Control de luces:
-
+		Control domo = new Control();
+		domo.iniciarSistema();
 ---------------------------------------------------
 		Ejercicio de Aire Acondicionado:
 
